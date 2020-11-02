@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(./assets/resturant-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 118px;
+}
+
+#title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    text-justify: auto;
+    margin: auto;
+}
+
+#sub-title {
+    color: #886724;
+    background-color: white;
+    margin: auto;
+    width: 156px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    text-justify: auto;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.388);
+    height: 40px;
+    text-align: center;
+    padding-top: 14px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    text-justify: auto;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+#main-title {
+    margin-top: 0px;
+    color: white;
+    font-size: 84px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+#main-text {
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-justify: auto;
+}
+
+a {
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: red;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.781);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+    color: aqua;
+    text-align: center;  
+}
+
+/* body, .container, #title, #sub-title, #main-title, #main-text, header, main, footer {
+} */
